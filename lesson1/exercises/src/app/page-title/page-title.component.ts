@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageTitleComponent implements OnInit {
 
-  photoTitle = 'Random Photo';
+  pageTitle = 'Page Title';
 
   constructor() { }
 
