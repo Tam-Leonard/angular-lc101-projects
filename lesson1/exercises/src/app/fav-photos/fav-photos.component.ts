@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'SB Images';
+  image1 = 'https://www.nikesb.com/assets/imager/uploads/70969/FD8777-100-PHCFH001_020d4294749750daa11b9b866154bc17.png';
+  image2 = 'https://www.nikesb.com/assets/imager/uploads/75666/DO9404-400-PHCFH001_020d4294749750daa11b9b866154bc17.png';
+  image3 = 'https://www.nikesb.com/assets/imager/uploads/75174/DR5415-103-PHCFH001_020d4294749750daa11b9b866154bc17.png';
 
   constructor() { }
 
