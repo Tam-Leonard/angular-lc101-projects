@@ -10,3 +10,8 @@ img {
 .photos {
    text-align: center;
 }
+
+h1 {
+   text-decoration: underline;
+   text-align: center;
+}
