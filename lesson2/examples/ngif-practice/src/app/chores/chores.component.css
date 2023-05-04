@@ -9,7 +9,9 @@
 h3 {
     text-align: center;
 }
-
+.ice_cream{
+    color: green;
+}
 img {
     max-width: 15%;
     height: auto;
