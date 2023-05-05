@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./candidates.component.css']
 })
 export class CandidatesComponent implements OnInit {
+  selected = true;
    missionName = "LaunchCode Moonshot"
 
    candidates = [
@@ -16,7 +17,19 @@ export class CandidatesComponent implements OnInit {
     {name: 'Champ', data: {age: 9, mass: '36 kg', sidekick: 'Carly'}, image: 'assets/images/Carly.png'}
   ];
 
+  clearData(){
+    this.selected = false;  
+  }
+
+  
   crew = [];
+
+  addToCrew(candidate: object) {
+    if (this.crew.indexOf(candidate) === -1) {
+      // If not, add them to the crew.
+      this.crew.push(candidate);
+    }
+  }
 
   constructor() { }
 
